@@ -24,4 +24,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  });
 
  
-client.login(process.env.ID);
+client.login(process.env.client_id);
