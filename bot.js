@@ -2,7 +2,6 @@
 const client = new Discord.Client();
 var prefix = "1";
 
-const developers = ["351822515879936000","id"]
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
