@@ -12,7 +12,7 @@ client.on('message', message => {
   .addField("Create At:", message.author.createdAt, true)
      
      
-  message.channel.sendEmbed(embed);
+  message.member.channel.sendEmbed(embed);
     }
 });
 
