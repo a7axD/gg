@@ -1,5 +1,8 @@
+
+var prefix = "p";
+
 client.on('message', message => {
-   if (message.content === "~id") {
+  if (message.content.startsWith(prefix + 'id')) {
    let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setThumbnail(message.author.avatarURL)
