@@ -116,7 +116,7 @@ m.sendMessage(args)
     if (message.content === "b!invite") {
      const embed = new Discord.RichEmbed()
          .setColor("RANDOM")
-         .addField('Broadcast', `https://discordapp.com/api/oauth2/authorize?client_id=489960386339274771&permissions=8&scope=bot`)
+         .addField('Broadcast', `https://discordapp.com/api/oauth2/authorize?client_id=520590138464534528&permissions=8&scope=bot`)
      message.author.send({embed});
    
     }
@@ -160,7 +160,7 @@ m.sendMessage(args)
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-         client.user.setGame(`Lords|BroadCast`,"http://twitch.tv/Ninja")
+         client.user.setGame(`b1invite|BroadCast`,"http://twitch.tv/Ninja")
 
   
   });
