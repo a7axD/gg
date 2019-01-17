@@ -160,7 +160,7 @@ m.sendMessage(args)
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-         client.user.setGame(`b1invite|BroadCast`,"http://twitch.tv/Ninja")
+         client.user.setGame(`Lords|BroadCast`,"http://twitch.tv/Ninja")
 
   
   });
